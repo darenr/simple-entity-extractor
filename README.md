@@ -1,6 +1,12 @@
 # simple-name-extractor
 Using NLTK to extract a Counter object of people's names from a document giving frequency of occurence
 
+# install
+
+```
+pip install -r requirements.txt 
+```
+
 # Example Usage:
 
 ```from ner import extract_names
@@ -32,7 +38,7 @@ Counter({u'Robert Adams': 1,
 
 ```
 
-#Tests
+# Tests
 
 ```
 nosetests test_ner.py
