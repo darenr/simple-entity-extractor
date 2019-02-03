@@ -1,6 +1,6 @@
-# simple-name-extractor
+# simple-Entity-extractor
 
-Uses NLTK to extract people's names from a document returning names and their
+Uses NLTK to extract people's Entities from a document returning Entities and their
 frequency of occurrence.
 
 # install
@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 # Example Usage:
 
-```from name_extractor import extract_names
+```from Entity_extractor import extract_entities
 
 txt = u'''Today the photography collection numbers more than 17,000 objects, and is the largest
 collection at the museum. Its strengths include outstanding examples of work by West Coast
@@ -22,7 +22,7 @@ represents another highlight of this period. The collection also demonstrates a 
 to the work of major 20th- and 21st-century figures, including Robert Adams, Diane Arbus,
 Lewis Baltz, Rineke Dijkstra, William Eggleston and Larry Sultan.'''
 
-extract_names(txt)
+EntityExtractor().extract_entities(txt)
 
 Counter({u'Robert Adams': 1,
          u'Alfred Stieglitz': 1,

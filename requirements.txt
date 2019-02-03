@@ -1,2 +1,3 @@
 nose
 nltk>=3.2
+requests
